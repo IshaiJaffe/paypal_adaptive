@@ -1,0 +1,1 @@
+python "c:\Program Files\Google\google_appengine\bulkloader.py" --download --url http://empeeric.appspot.com/remote_api --config_file bulkloader.yaml  --bandwidth_limit 400000 --kind rt_monitor_contentitem --db_filename bulkloader-progress.sql3 --filename stats_export1.csv
